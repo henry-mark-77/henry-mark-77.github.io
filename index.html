@@ -3,13 +3,293 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Diva - Happy Birthday!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Parisienne&display=swap');
+        
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url('https://images.unsplash.com/photo-1490750967868-88aa4486c946?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .card-wrapper {
+            position: relative;
+            max-width: 900px;
+            width: 100%;
+            padding: 20px;
+            background-image: url('https://images.unsplash.com/photo-1518199266791-5375a83190b7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.92);
+            border-radius: 5px;
+            padding: 40px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            margin: 20px;
+        }
+
+        h1, h2 {
+            font-family: 'Dancing Script', cursive;
+            color: #c2185b;
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        h1 {
+            font-size: 2.8em;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 2.2em;
+            margin-top: 40px;
+        }
+
+        p {
+            margin: 20px 0;
+            padding: 0 10px;
+            text-align: center;
+        }
+
+        pre {
+            font-family: 'Georgia', serif;
+            white-space: pre-wrap;
+            background-color: rgba(255, 245, 250, 0.7);
+            padding: 20px;
+            border-radius: 5px;
+            margin: 25px 0;
+            text-align: center;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+
+        .image-container {
+            width: 100%;
+            height: 300px;
+            border-radius: 5px;
+            margin: 30px 0;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .image-container:hover img {
+            transform: scale(1.05);
+        }
+
+        .image-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0,0,0,0.5);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-style: italic;
+        }
+
+        .signature {
+            font-family: 'Parisienne', cursive;
+            font-size: 2em;
+            text-align: right;
+            margin-top: 50px;
+            color: #c2185b;
+            padding-right: 30px;
+        }
+
+        .heart {
+            color: #e91e63;
+            font-size: 1.5em;
+            vertical-align: middle;
+        }
+
+        .code {
+            font-family: monospace;
+            background-color: #f5f5f5;
+            padding: 5px 10px;
+            border-radius: 3px;
+            display: inline-block;
+            margin: 10px 0;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 20px;
+            }
+            .card-wrapper {
+                padding: 10px;
+                background-image: none;
+            }
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            h2 {
+                font-size: 1.8em;
+            }
+            .image-container {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card-wrapper">
+        <div class="container">
+            <!-- Cover Image -->
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Romantic couple silhouette">
+                <div class="image-caption">Our Beautiful Journey</div>
+            </div>
+
+            <h1>For My Diva</h1>
+            <h2>Happy Birthday My Love!</h2>
+
+            <!-- Couple Photo -->
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Couple holding hands">
+                <div class="image-caption">Together Forever</div>
+            </div>
+
+            <h1>Background</h1>
+            <p>They say life comes at you like whirlwind, <br> very fast with no where to duck, so is love!
+                Meeting you was the epoch defining <br> moment of my life as that was when things started 
+                falling into place. 
+            </p>
+
+            <h2>Love Story Untold</h2>
+            <p class="code">6B77-41A0</p>
+
+            <!-- Memory Photo -->
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1494774157365-9e04c6720e47?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Heart shaped stones">
+                <div class="image-caption">Our Special Moments</div>
+            </div>
+
+            <p><pre> Love is the first light that breaks the dawn,
+            A whisper soft, a sigh, a yawn.
+            It stirs the soul from silent sleep,
+            Awakens depths so vast, so deep.
+            A glance, a touch- a spark takes flight,
+            A rush of warmth, a burst of light.
+            It comes unasked, it comes unbidden,
+            Like flowers bloom by springtime hidden.</pre></p>
+
+            <!-- [All your poem sections would go here...] -->
+
+            <h2>Coda: The Last Verse</h2>
+            <p><pre>If all the poets since the birth,
+            Of time could scour the earth,
+            They'd never cage in ink or art,
+            This wildfire burning in my heart.
+            So let the scholars strain to see- 
+            Love's algebra is you and me.
+            No formula, no chart, no creed,
+            Just flesh and soul and want and need.
+            Now every sunset wears your name,
+            Each breeze repeats it just the same.
+            And when I sleep, the cosmos parts,
+            To show me you- my sky, my stars.</pre></p>
+
+            <!-- Romantic Photo -->
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Rose petals">
+                <div class="image-caption">Your Love Lights Up My Life</div>
+            </div>
+
+            <p><pre>If love were a language, you'd be its poet- 
+            Turning whispers into wildfires,
+            And heartbeats into hymns.
+            May our own love story be written in starlight,
+            And may you always find the words when the heart runs deep.
+            Keep blooming in the garden of tenderness, and remember:
+            The best love poems aren't penned- they are lived!</pre></p>
+
+            <div class="signature">
+                With all my love <span class="heart">♥</span>,<br>
+                The muse, Mark Henry<br>
+                Your everyday crush.
+            </div>
+
+            <!-- Final Photo -->
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Floral heart">
+                <div class="image-caption">My Heart Belongs to You</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY DIVA</title>
 </head>
 <body>
     <h1>Background</h1>
     <p>They say life comes at you like whirlwind, <br> very fast with no where to duck, so is love!
         Meeting you was the epoch defining <br> momment of my life as that was when things started 
-        falling into place. hjjjhjhjjjjjjjjjjmmmmmmmmmmmmmmmmmmm
+        falling into place. 
 
     </p>
     <h2>Love story untold</h2>
@@ -222,15 +502,5 @@
             henry2025program1
         </p>
 
-        
-
-
-        
-
-
-
-
-
-
-</body>
-</html>
+        </body>
+</html>  -->
